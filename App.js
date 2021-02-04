@@ -1,13 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Text } from 'react-native-elements';
+import {  Image, ScrollView, TextInput } from 'react-native';
+import {  Button,  SafeAreaView, Alert } from 'react-native';
+import { IconButton, Colors } from 'react-native-paper';
+import App_header from './App_header.js'
+import App_part1 from './App_part1.js'
+import App_shopbypattern from './App_shopbypattern'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ScrollView style={{flexDirection:'column'}}>
+    <App_header ></App_header>
+     <App_part1></App_part1>
+     <App_shopbypattern></App_shopbypattern>
+     
+    </ScrollView>
   );
 }
 
