@@ -9,13 +9,7 @@ import { ImageBackground } from "react-native";
 
 export default function App_part1() {
     return (
-        <View>
-          {/*   <Image
-    style={{   flex: 1,
-    width: 440,
-    height: 315,resizeMode: 'contain',position:'relative' }}
-        source={require('./assests/G1.png')}
-      />*/}
+        <View >
 <ImageBackground source={require('./assests/G1.png')} style={{ flex: 1,
     resizeMode: "cover",
     justifyContent: "center",height:300}} >

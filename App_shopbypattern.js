@@ -7,12 +7,12 @@ import {  Button,  SafeAreaView, Alert } from 'react-native';
 import { IconButton, Colors } from 'react-native-paper';
 import img1 from './assests/neklace.png'
 
-var styles = StyleSheet.create({ lineStyle: {fontSize:34, textDecorationLine: "underline",
-    textDecorationStyle: "double",
-    textDecorationColor: 'blue' ,
+var styles = StyleSheet.create({ lineStyle: {fontSize:34,
     color:'#e53838',
-    marginBottom:'2%',
-    marginTop:'2%'
+    borderBottomWidth:4,
+    borderBottomColor:'#F5CDAB',
+    marginTop:'2%',
+    marginRight:'auto'
 }})
 
 export default function App_shopbypattern() {
